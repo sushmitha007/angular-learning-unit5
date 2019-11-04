@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<router-outlet></router-outlet>
+<!-- <input type="text" (change)="setText($event.srcElement.value)"/> -->
+<!-- <br> -->
+<!-- template reference variable -->
+<input type = "text" #textInput/>
+<br>
+<button (click)="doSomething(textInput.value)">Click Me</button>
+
+
+<!-- <button (click)="doSomething()">Click Me</button> -->
+<!-- <br> -->
+<!-- <input type = "text" (change)="doSomething('123')"/> -->
+<!-- <input type = "text" (change)="doSomething($event.srcElement.value)"/> -->
